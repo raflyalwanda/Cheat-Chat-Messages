@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "696920295838",
+    "firebase_url": "https://cheatchatapp-77152.firebaseio.com",
+    "project_id": "cheatchatapp-77152",
+    "storage_bucket": "cheatchatapp-77152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696920295838:android:60119c02d9fb50ee",
+        "android_client_info": {
+          "package_name": "com.example.cheatchat.cheatchatapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696920295838-l3jdm3vsv2r8cbrlv8pj96347kncjdmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSsVh0eA2v9nV5VsCmUZb-fnWQwBUeG-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

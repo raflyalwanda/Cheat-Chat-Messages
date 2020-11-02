@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/biner"/>
+
+    <TextView
+        android:id="@+id/receiver_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/message_profile_image"
+        android:layout_toRightOf="@+id/message_profile_image"
+        android:background="@drawable/receiver_messages_layout"
+        android:padding="10dp"
+        android:text="receiver message here"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sender_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/receiver_message_text"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#4f859f"
+        android:padding="10dp"
+        android:text="sender messages"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/massage_image_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/receiver_message_text"
+        android:layout_alignLeft="@+id/receiver_message_text"
+        android:layout_alignTop="@+id/sender_message_text"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/remassage_image_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/massage_image_view"
+        android:layout_alignLeft="@+id/massage_image_view"
+        android:layout_alignTop="@+id/receiver_message_text"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
